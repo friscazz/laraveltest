@@ -11,7 +11,7 @@ class Buku extends Model
     public function genre()
     {
 
-        return $this->belongsTo('App\Genre', 'id');
+        return $this->belongsTo('App\Genree', 'id');
 
     }
 }
